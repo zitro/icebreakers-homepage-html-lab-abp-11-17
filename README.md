@@ -1,13 +1,20 @@
-# The IceBreakers Homepage HTML
+# The Icebreakers Homepage HTML
 
 ## Objectives
 
-1. Code an `h1` tag in `index.html`
-2. Make the inner text of the `h1` Hello, World!
+1. Create a complete page of well-structured HTML!
 
 ## Instructions
 
-Open `index.html` in your text editor. Add an `h1` tag with the inner text of `Hello, World!` anywhere in the file. You can run the tests with this lab via `learn`. Read the error messages in your tests, they contain hints!
+Open `index.html` in your text editor. You'll see the code that we wrote in the previous lab. In this lab, you're tasked with fleshing out the `body` of the HTML document with some awesome content, completing the static homepage we've been working on as a template for our forthcoming Icebreakers app.
+
+Inside the `body` tags and below the `header` section, create a new `main` section that will house all of the primary content for our homepage. Within the new `main` tags, nest a pair of `div` elements. The first `div` element should contain an `h1` with some text you'd like to use as the main heading on the page. Below the `h1`, add a `p`(aragraph) element with some text describing the site. For all of these content elements you're adding, the content doesn't matter. Be creative! The tests will only be checking that the correct elements exist in the correct places.
+
+The second `div` element should contain two `h4` elements and two `p` elements. The `p` elements should each contain a single `a` element with an `href` that points to `#` (which we're using as a placeholder since we haven't yet created any other pages that we'd want our links to point at).
+
+Finally, beneath the closing `main` tag but still within the `body`, create a `footer` element that contains a `p` element.
+
+You can run the tests with this lab via `learn`. Make sure you save the file before running the test suite. Failing tests will provide helpful error messages that you can use to debug your code — read them closely for hints!
 
 ## Viewing your work in the browser
 
@@ -19,4 +26,4 @@ Once you have the HTML document open in your browser, you can make changes to it
 
 ## Resources
 
-* [h1-h6 Tags](https://www.w3schools.com/tags/tag_hn.asp)
+* [MDN — HTML basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
